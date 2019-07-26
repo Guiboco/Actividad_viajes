@@ -1,0 +1,26 @@
+<section id="seccionregistro">
+    <div class="background"></div>
+    <form id="formregistro" action="users/signup" method="POST">
+        <div id="registro">
+            <h1>REGISTRO</h1>
+        </div>
+        <a href="./login">
+            <p>¿Ya estás registrado?</p>
+        </a>
+        <input placeholder="Usuario" type="text" name="userName" required>
+        <input placeholder="Email" type="email" name="email" required>
+        <input placeholder="Contraseña" type="password" name="password" required>
+        <input placeholder="Repetir constraseña" type="password" name="passwordConfirmed" required>
+        <input type="checkbox" value="second_checkbox"> <label for="cbox2">Acepto los términos y
+            condiciones, así como la política de privacidad.</label>
+
+        <button id="buttonregister" type="submit">Enviar</button>
+
+
+    </form>
+
+    {{!-- <form action="/multer/upload" method="post" enctype="multipart/form-data">
+        File: <input type='file' name='file' />
+        <input type="submit" value="Submit">
+    </form> --}}
+</section>

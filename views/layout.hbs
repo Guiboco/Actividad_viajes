@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>{{title}}</title>
+  <link rel="shortcut icon" href="images/favicon-travel.png" type="image/x-icon">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel='stylesheet' href='/stylesheets/style.css' />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+  <header>
+    <a id="index" href="./">
+      <img src="/images/iconoweb1.png" id="icono" alt="iconoweb"></a>
+
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-item nav-link active" href="#promociones">Destinos <span class="sr-only">(current)</span></a>
+          <a href="#quienesSomos" class="nav-item nav-link" href="#">Quiénes somos</a>
+          <a href="#contactar" class="nav-item nav-link" href="#">Donde estamos</a>
+          {{!-- <a class="nav-item nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a> --}}
+        </div>
+
+      </div>
+    </nav>
+    <div class="register-login">
+      <a id="register" href="./register">
+        <button>Regístrate</button></a>
+
+      <a id="login" href="./login">
+        <img src="images/icons8-usuario-masculino-en-círculo-32.png" alt="login"></a>
+    </div>
+  </header>
+  {{{body}}}
+  <footer>
+    <div class="ayuda">
+      <h1>¿NECESITAS AYUDA?</h1>
+      <p>0264 123 4567</p>
+      <p>enquiry@geekshubstravel.com</p>
+      <p>Lun-Vie. 9:30-19:00 Sab: 10:00 - 14:00</p>
+    </div>
+    <div class="info">
+      <h1>INFORMACIÓN</h1>
+      <p>Quienes somos</p>
+      <p>Preguntas frecuentes</p>
+      <p>Politica de Privacidad</p>
+      <p>Aviso Legal</p>
+      <p>Contacto</p>
+      <p>Programa de puntos</p>
+    </div>
+    <div class="suscribete">
+      <h1>SUSCRIBETE A LA NEWSLETTER</h1>
+      <input placeholder="Correo Electrónico" type="text" class="correo">
+      <button>SUSCRIBETE</button>
+    </div>
+    <div class="logos">
+      <img src="/images/fb-ico.png" alt="facebook">
+      <img src="/images/tt-ico.png" alt="twitter">
+      <img src="/images/whatsapp.png" class="whats" alt="whatsapp">
+      <img src="/images/youtube.png" alt="youtube">
+    </div>
+  </footer>
+  <div class="inferior">
+    <p>GeekHubs Travels 2019 todos los derechos reservados</p>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+
+</body>
+
+</html>

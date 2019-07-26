@@ -1,0 +1,400 @@
+
+header {
+  display: flex;
+  background: blue;
+  justify-content: space-between;
+  color: white;
+}
+nav {
+  background-color: rgba(255, 0, 0, 0);
+  font-size: 1em;
+  font-style: italic;
+}
+#icono{
+  width: 6em;
+  height: 5em;
+}
+#login{
+  padding: 1em;
+}
+#register button{
+  margin-top: 1.5em;
+  background: yellow;
+  border: none;
+}
+.box1 {
+  width: auto;
+  height: 100vh;
+  background-image: url("/images/nathan-anderson-316188-unsplash.jpg");
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.logos {
+  margin: 2em;
+}
+.logos img {
+  width: 30px;
+  height: 30px;
+}
+.textoViaja h1 {
+  color: white;
+  font-size: 60px;
+  font-weight: 700;
+}
+.textoViaja h2 {
+  color: white;
+}
+.textoViaja button {
+  background-color: yellow; /* Green */
+  border: 1px solid yellow;
+  padding: 15px 32px;
+  text-align: center;
+  font-size: 25px;
+  margin-top: 2em;
+  margin-left: 3em;
+}
+
+#scroll{    
+  bottom: 0;
+  right: 0;
+  position: fixed;
+  z-index: 1;
+  background: yellow;
+  border: none;
+  width: 10%;
+  height: 10%;
+  margin: 1em;
+}
+
+#promociones {
+  box-sizing: border-box;
+  margin-top: 2em;
+  padding-left: 5em;
+  padding-right: 5em;
+  /* border: 1px solid black; */
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+#name {
+  border: 1px solid white;
+  position: absolute;
+  background: white;
+  color: black;
+  bottom: 0;
+  width: 100%;
+  padding: 0.5em;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+}
+#mykonos {
+  /* border: 1px solid black; */
+  height: 18.1em;
+  width: 21.6em;
+  position: relative;
+  background-image: url(/images/madrid.JPG);
+  background-size: cover;
+  margin-bottom: 1em;
+}
+#save {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  /* border: 1px solid black; */
+  color: white;
+  z-index: 1;
+  height: 3.5em;
+  width: 100%;
+  padding-left: 2em;
+  background: darkblue;
+}
+#price {
+  /* border: 1px solid black; */
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  right: 0;
+  height: 5.8em;
+  width: 7.7em;
+  z-index: 2;
+  background: yellow;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#london {
+  /* border: 1px solid black; */
+  height: 18.1em;
+  width: 21.6em;
+  position: relative;
+  background-image: url(/images/new_york.JPG);
+  background-size: cover;
+  margin-bottom: 1em;
+}
+
+#dublin {
+  /* border: 1px solid black; */
+  height: 18.1em;
+  width: 21.6em;
+  position: relative;
+  background-image: url(/images/tokyo.JPG);
+  background-size: cover;
+  margin-bottom: 1em;
+}
+
+#paris {
+  /* border: 1px solid black; */
+  height: 18.1em;
+  width: 21.6em;
+  position: relative;
+  background-image: url(/images/buenos_aires.JPG);
+  background-size: cover;
+  margin-bottom: 1em;
+}
+
+#amsterdam {
+  /* border: 1px solid black; */
+  height: 18.1em;
+  width: 21.6em;
+  position: relative;
+  background-image: url(/images/ciudad_mexico.JPG);
+  background-size: cover;
+}
+#rome {
+  /* border: 1px solid black; */
+  height: 18.1em;
+  width: 21.6em;
+  position: relative;
+  background-image: url(/images/beijing.JPG);
+  background-size: cover;
+}
+
+#quienesSomos {
+  /* border: 1px solid black; */
+  background-image: url(/images/sectionquiensomostio.jpg);
+  background-size: cover;
+  display: flex;
+  justify-content: flex-start;
+}
+.boxSomos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 30%;
+  margin: 2em;
+  margin-left: 4em;
+  background: white;
+  padding-bottom: 3em;
+}
+.quienesSomos h1 {
+  padding-top: 1em;
+  padding-left: 1em;
+  text-align: start;
+}
+.barra {
+  /* border: 1px solid black; */
+  width: 60%;
+  height: 0.5em;
+  margin-left: 2em;
+  background: yellow;
+}
+.boxSomos p {
+  text-align: start;
+  padding: 2em;
+  padding-right: 3em;
+}
+.boxSomos button {
+  font-size: 2em;
+  width: 70%;
+  color: yellow;
+  margin-left: 1.7em;
+  font-weight: 500;
+  padding-left: 1em;
+  padding-right: 1em;
+  background: darkblue;
+}
+#contactar {
+  /* border: 1px solid black; */
+  display: flex;
+  justify-content: center;
+}
+
+#plano {
+  margin: 2em;
+  width: 40%;
+}
+
+#formulario {
+  margin-left: 2em;
+margin-top: 2em;
+}
+.inputs {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.inputs input {
+  margin: 0.5em;
+}
+.message {
+  width: 30em;
+  height: 10em;
+}
+
+footer {
+  /* border: 1px solid black; */
+  display: flex;
+  justify-content: space-around;
+  padding: 2em;
+  color: white;
+  background: rgb(0, 0, 102);
+}
+.inferior {
+  border: 1px solid black;
+  text-align: center;
+  color: white;
+  padding: 2em;
+  background: rgb(0, 0, 102);
+}
+footer .ayuda h1 {
+  font-size: 1.5em;
+  padding-bottom: 1em;
+}
+footer .info h1 {
+  font-size: 1.5em;
+  padding-bottom: 1em;
+}
+footer .suscribete {
+  display: flex;
+  flex-direction: column;
+}
+footer .suscribete h1 {
+  font-size: 1.5em;
+  padding-bottom: 1em;
+}
+footer button {
+  margin: 2em;
+  padding: 1em;
+  padding-left: 2em;
+  padding-right: 2em;
+  background: yellow;
+  color: black;
+  border: none;
+}
+
+/*register*/
+
+.background {
+  background-image: url("/images/airport-airport-gate-boarding-34134.jpg");
+  background-size: cover;
+  position: absolute;
+  opacity: 0.5;
+  height: 100vh;
+  width: 100vw;
+  z-index: -1;
+}
+
+#formregistro{
+  opacity: 0.6;
+  width: 80vw;
+  height: 80vh;
+  padding: 2em;
+  margin: 2em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: white;
+}
+#seccionregistro{
+  display: flex;
+  justify-content: center;
+  align-items: center
+}
+#seccionregistro h1 {
+  padding: 1em;
+  font-size: 3em;
+}
+#formregistro a{
+  font-size: 1.2em;
+}
+
+/* Success*/
+
+.seccionCentral{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.seccionCentral #success{
+font-size: 3em;
+padding: 2em;
+}
+.seccionCentral p{
+  font-size: 2em;
+}
+
+.inicio{
+  padding: 1em;
+  padding-left: 2em;
+  padding-right: 2em;
+  border: none;
+  background: yellow;
+}
+/* login*/
+
+.login{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 2em;
+  width: auto;
+  height: 70vh;
+}
+#fondoLogin{
+  background-image: url("/images/airport-airport-gate-boarding-34134.jpg");
+  background-size: cover;
+  position: absolute;
+  opacity: 0.5;
+  height: 100vh;
+  width: 100vw;
+  z-index: -1;}
+
+  /*recuperación de contraseña*/
+
+  .recupera{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10em;
+  }
+  .recupera input{
+    width: 50%;
+  }
+  .recupera button{
+    margin: 2em;
+  }
+
+  /*UserProfile*/
+
+  .cabeceraUser{
+    padding-top: 10em;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  #infoUser{
+    margin-right: 20em;
+    display: flex;
+    flex-direction: column;
+  }
